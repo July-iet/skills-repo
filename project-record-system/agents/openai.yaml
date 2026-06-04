@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Record System"
+  short_description: "Initialize and refresh agent-readable repo docs."
+  default_prompt: "Use $project-record-system to understand this repository, initialize its agent-readable record system, and keep the docs index current."
+

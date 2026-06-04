@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Manager"
+  short_description: "PRDs, prioritization, and product planning"
+  default_prompt: "Use $product-manager to turn this idea into a scoped PRD with acceptance criteria."
