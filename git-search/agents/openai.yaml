@@ -1,0 +1,6 @@
+interface:
+  display_name: "Git Search"
+  short_description: "Scan local Git commits into structured JSON"
+  default_prompt: "Use $git-search to collect my local Git commits for a date range."
+policy:
+  allow_implicit_invocation: true

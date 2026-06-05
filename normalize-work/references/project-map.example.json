@@ -1,0 +1,21 @@
+{
+  "defaults": {
+    "workType": "正常",
+    "dailyHours": 8,
+    "unknownProjectCode": ""
+  },
+  "projects": {
+    "plm-ui": {
+      "projectCode": "XXXTBB-0126",
+      "projectName": "研发工作管理平台"
+    },
+    "plm-system": {
+      "projectCode": "XXXTBB-0126",
+      "projectName": "研发工作管理平台"
+    },
+    "BluettiAppH5": {
+      "projectCode": "XXXTBB-0060",
+      "projectName": "H5类项目"
+    }
+  }
+}

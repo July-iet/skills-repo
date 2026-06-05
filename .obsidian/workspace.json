@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "fe51328a1964fad5",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5e59c9e3cb39111",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ab1228f9063c474",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "generate-git-report/SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e4c9f113eb70fd03",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed38f442a910519c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7969d8a9bed1602",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "d43ec97d6e822c4a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6007eb041eca0377",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b98c7a6574834aef",
+    "type": "split",
+    "children": [
+      {
+        "id": "adea5afac099a00a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2e5bcde41879183",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "generate-git-report/SKILL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "SKILL 的反向链接列表"
+            }
+          },
+          {
+            "id": "bbff5b75d2904179",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "generate-git-report/SKILL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "SKILL 的出链列表"
+            }
+          },
+          {
+            "id": "3aa7e9859fa85113",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "57166abbdfc49e90",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "9e2a89304a7c161e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "generate-git-report/SKILL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "SKILL 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "1ab1228f9063c474",
+  "lastOpenFiles": [
+    "normalize-work/scripts/normalize_work.py",
+    "normalize-work/references/work-entry.schema.md",
+    "normalize-work/references/project-map.example.json",
+    "normalize-work/agents/openai.yaml",
+    "normalize-work/SKILL.md",
+    "normalize-work/scripts",
+    "normalize-work/references",
+    "normalize-work/agents",
+    "normalize-work",
+    "git-search/references/git-search.schema.md",
+    "git-search/scripts/git_search.py",
+    "git-search/agents/openai.yaml",
+    "git-search/SKILL.md",
+    "git-search/references",
+    "git-search/scripts",
+    "generate-report/references/monthly-report.rules.md",
+    "generate-report/references/monthly-report.prompt.md",
+    "generate-report/references/monthly-report.examples.md",
+    "generate-report/SKILL.md"
+  ]
+}

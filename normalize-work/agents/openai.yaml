@@ -1,0 +1,6 @@
+interface:
+  display_name: "Normalize Work"
+  short_description: "Convert Git commits into work-hour entries"
+  default_prompt: "Use $normalize-work to convert today’s git-search JSON into diary-helper entries."
+policy:
+  allow_implicit_invocation: true
