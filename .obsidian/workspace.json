@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "generate-git-report/SKILL.md",
+                "file": "project-record-system/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,6 +185,7 @@
   },
   "active": "1ab1228f9063c474",
   "lastOpenFiles": [
+    "generate-git-report/SKILL.md",
     "normalize-work/scripts/normalize_work.py",
     "normalize-work/references/work-entry.schema.md",
     "normalize-work/references/project-map.example.json",
@@ -199,7 +200,6 @@
     "git-search/agents/openai.yaml",
     "git-search/SKILL.md",
     "git-search/references",
-    "git-search/scripts",
     "generate-report/references/monthly-report.rules.md",
     "generate-report/references/monthly-report.prompt.md",
     "generate-report/references/monthly-report.examples.md",
