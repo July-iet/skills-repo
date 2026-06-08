@@ -16,6 +16,7 @@ Convert `git-search` JSON into work-hour entry candidates that `diary-helper` ca
 - Do not invent project codes. Missing mappings must be marked `needsReview: true`.
 - Keep the output compatible with `diary-helper` queue import.
 - Keep generated `entries[*].hours` as numeric strings in 0.5-hour steps.
+- Emit at most one `entries[*]` item per target work-hour project. When multiple commits or repositories map to the same project, merge their work content, sources, and hours into that single project entry.
 
 ## Workflow
 
@@ -28,7 +29,7 @@ Convert `git-search` JSON into work-hour entry candidates that `diary-helper` ca
 ## Hour Distribution Rules
 
 - The default daily total is 8 hours. `--daily-hours` can override it, and `project-map.defaults.dailyHours` is a fallback when the CLI value is not set.
-- Build one work entry per mapped project. Repositories that map to the same `projectCode` are merged before hours are calculated.
+- Build exactly one work entry per mapped project. Repositories or commit groups that map to the same `projectCode` must stay merged and must not be split into multiple entries.
 - A project's line weight is the sum of `insertions + deletions` from all its `git-search` commits.
 - Distribute the daily total by each project's line-weight ratio, then round to the nearest 0.5 hour.
 - Every emitted project entry must be at least 0.5 hour, and all emitted project entry hours must still add up to the daily total.
