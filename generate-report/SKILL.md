@@ -1,6 +1,6 @@
 ---
 name: generate-report
-description: Generate performance-oriented Markdown reports from git-search JSON. Use when Codex needs to turn structured Git commit summaries into `git_stats.md`, monthly Git work summaries, factual summaries, KPI-oriented summaries, or materials for the performance workspace without re-scanning Git.
+description: Generate performance-oriented Markdown reports from git-search JSON. Use when Codex needs to turn structured Git commit summaries into `git.md`, monthly Git work summaries, factual summaries, KPI-oriented summaries, or materials for the performance workspace without re-scanning Git.
 ---
 
 # Skill: generate-report
@@ -11,7 +11,7 @@ Render a Markdown report from `git-search` JSON. This skill is the reporting lay
 
 ## Compatibility Goal
 
-For `D:\Jing44\Code\performance`, output `git_stats.md` or `git_stats_N.md` under `data/months/{month}/input` so the backend can continue reading it as a material file.
+For performance workspaces, output `git.md` or `git_N.md` under `data/months/{month}/input` so the report can be used as a monthly material file.
 
 ## Workflow
 

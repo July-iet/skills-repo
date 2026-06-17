@@ -30,7 +30,7 @@ def out_path(output_dir, output_name):
         return output_dir / output_name
     i = 0
     while True:
-        name = "git_stats.md" if i == 0 else f"git_stats_{i}.md"
+        name = "git.md" if i == 0 else f"git_{i}.md"
         path = output_dir / name
         if not path.exists():
             return path
