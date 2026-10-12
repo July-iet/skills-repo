@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "project-record-system/SKILL.md",
+                "file": "generate-git-report/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,12 +185,13 @@
   },
   "active": "1ab1228f9063c474",
   "lastOpenFiles": [
+    "normalize-work/SKILL.md",
+    "project-record-system/SKILL.md",
     "generate-git-report/SKILL.md",
     "normalize-work/scripts/normalize_work.py",
     "normalize-work/references/work-entry.schema.md",
     "normalize-work/references/project-map.example.json",
     "normalize-work/agents/openai.yaml",
-    "normalize-work/SKILL.md",
     "normalize-work/scripts",
     "normalize-work/references",
     "normalize-work/agents",
